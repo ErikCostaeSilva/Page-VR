@@ -1,0 +1,105 @@
+@media(max-width:1140px){
+    h1{
+        margin:0 auto 100px;
+    }
+    section{
+        flex-direction:column;
+    }
+    section>img{
+        width:80%;
+        margin:auto;
+    }
+    .content-vr{
+        margin:auto;
+        text-align:center;
+        width:60%;
+        padding:5em 0;
+    }
+    #see-all{
+        display:none;
+    }
+    h2{
+        margin:auto;
+    }
+    .container-grid-images{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+}
+@media(max-width:750px){
+    h1{
+        width:80%;
+        font-size:2.5em;
+    }
+    h2{
+        font-size:2em;
+    }
+    nav>img{
+        width:25%;
+    }
+    nav ul{
+        display:none;
+    }
+    #hamburguer-icon{
+        display:inline-block;
+        width:6%;
+        cursor: pointer;
+    }
+    .content-vr {
+        width:90%;
+    }
+    .container-grid-images{
+        padding-bottom:8em;
+    }
+    .container-grid-images img{
+        width:80%;
+    }
+    .container-grid-images h3{
+        font-size:1.5em;
+    }
+    .logos, .nav-copyright {
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+    }
+    .logos>img{
+        width:50%;
+    }
+    .nav-copyright li {
+        display:block;
+        padding:0 0 20px 0;
+    }
+    /*JavaScript*/
+    .menu-mobile{
+        background:var(--Black);
+        padding-bottom:100%;
+    }
+    .menu-mobile h1{
+        display:none;
+    }
+    .menu-mobile #hamburguer-icon{
+        display:none;
+    }
+    .menu-mobile>nav>img{
+        width:50%;
+    }
+    .menu-mobile ul{
+        display:block;
+        position:absolute;
+        top:12em;
+    }
+    .menu-mobile li{
+        display:block;
+        padding-bottom:2em;
+    }
+    .menu-mobile a{
+        font-size:1.5em;
+        color:var(--Very-Dark-Gray);
+        text-transform:uppercase;
+    }
+    .menu-mobile #close-icon{
+        display:inline-block;
+        width:6%;
+        cursor: pointer;
+    }
+}
